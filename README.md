@@ -1,20 +1,86 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Project: Bridge Voice
 
-# Run and deploy your AI Studio app
+Tech Stack:
 
-This contains everything you need to run your app locally.
+* React 19
+* TypeScript
+* Vite
+* TailwindCSS
+* Google Gemini APIs
+* Gemini Live API
+* Gemini TTS
+* Web Audio API
 
-View your app in AI Studio: https://ai.studio/apps/drive/1TSrGDwT_4-Ruum20tlgoc20jpjDbs3Sp
+Project Type:
+Real-time AI-powered multilingual speech-to-speech translation platform with emotion-aware voice synthesis.
 
-## Run Locally
+Core Features:
 
-**Prerequisites:**  Node.js
+* Real-time speech translation
+* Emotion detection and preservation
+* AI-generated translated voice
+* Speaker mode
+* Listener mode
+* Live microphone streaming
+* PCM audio processing
+* Multilingual support
+* Modern responsive UI
 
+IMPORTANT RULES:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Do NOT rewrite the whole project unnecessarily.
+2. Preserve existing UI design and architecture.
+3. Do NOT remove Gemini integration.
+4. Do NOT replace TypeScript with JavaScript.
+5. Do NOT break Tailwind styling.
+6. Keep all existing components working.
+7. If fixing one file affects another file, explain dependency changes clearly.
+8. Return COMPLETE updated files, not partial snippets.
+9. Do NOT use placeholders like:
+   // rest of code
+   // existing logic
+10. Maintain compatibility with:
+
+* React 19
+* Vite
+* TypeScript strict mode
+
+Project Architecture:
+
+* App.tsx
+* components/
+
+  * Layout.tsx
+  * SpeakerView.tsx
+  * ListenerView.tsx
+  * DemoView.tsx
+  * Onboarding.tsx
+* services/
+
+  * geminiService.ts
+* types.ts
+
+AI Workflow:
+Voice Input
+→ Speech Recognition
+→ Emotion Detection
+→ Translation
+→ AI Text-to-Speech
+→ Audio Playback
+
+If you get stuck:
+
+* First identify the exact error source
+* Check imports/exports carefully
+* Check async audio streaming logic
+* Check TypeScript types/interfaces
+* Check Gemini API response formats
+* Check AudioContext/browser permission issues
+* Avoid changing architecture unless absolutely necessary
+
+When responding:
+
+* Explain what caused the error
+* Give exact file changes
+* Return complete corrected code for affected files
+* Preserve all current functionality
