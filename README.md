@@ -24,14 +24,14 @@ Unlike traditional translation tools, Bridge Voice does NOT stop at text transla
 
 🧠 Core Features
 
-🎤 1. Real-Time Speech Translation
+🎤 Real-Time Speech Translation
 - Live microphone input processing
 - Continuous streaming translation using Gemini Live API
 - Low-latency speech-to-speech pipeline
 
 ---
 
-🎭 2. Emotion-Aware Translation Engine
+🎭 Emotion-Aware Translation Engine
 - Detects speaker emotion (excited, serious, concerned, etc.)
 - Preserves tone during translation
 - Generates emotionally consistent output speech
@@ -45,28 +45,28 @@ Supported emotions:
 
 ---
 
-🔊 3. AI Speech-to-Speech System
+🔊 AI Speech-to-Speech System
 - Voice → AI → Voice pipeline
 - Eliminates text-only translation limitations
 - Natural conversational output
 
 ---
 
-🎧 4. Real-Time Audio Streaming
+🎧 Real-Time Audio Streaming
 - Continuous microphone streaming
 - Live AI response generation
 - Low-latency audio playback
 
 ---
 
-🗣️ 5. AI Text-to-Speech (TTS)
+🗣️ AI Text-to-Speech (TTS)
 - Human-like voice synthesis
 - Emotion-aware speech generation
 - Powered by Gemini TTS models
 
 ---
 
-👥 6. Speaker–Listener Architecture
+👥 Speaker–Listener Architecture
 
 Speaker Mode
 - Broadcasts live speech
@@ -80,14 +80,14 @@ Listener Mode
 
 ---
 
-🧪 7. Demo Interaction Lab
+🧪 Demo Interaction Lab
 - Built-in testing environment
 - Simulates real-world translation scenarios
 - Used for showcasing AI pipeline behavior
 
 ---
 
-🎨 8. Modern UI/UX Design
+🎨 Modern UI/UX Design
 - Responsive React + Tailwind interface
 - Animated visual components
 - Clean speaker/listener dashboard layout
@@ -95,7 +95,7 @@ Listener Mode
 
 ---
 
-⚙️ 9. Onboarding System
+⚙️ Onboarding System
 - First-time user guidance flow
 - Persistent onboarding state (localStorage)
 - Smooth user introduction experience
@@ -214,19 +214,3 @@ Accessibility
 - AI voice cloning
 - Noise cancellation integration
 - Mobile application version
-
----
-
-👨‍💻 Author
-Sadiya  
-AI & Software Developer  
-MERN Stack | AI Systems | Civic & Communication Tech
-
----
-
-⭐ Impact
-Bridge Voice is designed to:
-- Remove language barriers in real-time communication
-- Improve accessibility in multilingual environments
-- Demonstrate advanced AI streaming architecture
-- Showcase real-world AI product engineering capabilities
